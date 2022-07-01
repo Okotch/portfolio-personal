@@ -1,0 +1,507 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+/* this is the navbar*/
+.nav {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(13, 83, 109);
+}
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+  background-image: url(../images/images.jfif);
+  background-image: url(../images/images.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navlinks ul {
+  text-align: right;
+  color: aliceblue;
+  position: sticky;
+}
+.navlinks ul li {
+  display: inline-block;
+  width: 120px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.navlinks ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.navlinks button {
+  background-color: transparent;
+  color: white;
+  border-color: aliceblue;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.navlinks ul li a:hover {
+  background-color: rgb(228, 153, 14);
+  padding: 8px 1px;
+  transition: 0.1s;
+}
+.content h3 {
+  font-size: 25px;
+  color: aliceblue;
+  font-style: italic;
+  margin-top: 60px;
+  margin-left: 5%;
+}
+.content h3 {
+  animation-name: home;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+/* start of homepage*/
+.content h1 {
+  color: white;
+  padding-left: 15%;
+  font-size: 50px;
+  line-height: 40px;
+  margin-top: 100px;
+}
+.content h2 {
+  color: white;
+  padding-left: 15%;
+  font-size: 30px;
+  margin-top: 5px;
+}
+.content p {
+  color: white;
+  padding-left: 15%;
+  font-size: 20px;
+  line-height: 40px;
+  margin-top: 5px;
+  transition: all;
+}
+.content img {
+  float: right;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-top: -200px;
+  padding-right: 0px;
+}
+.content button {
+  background-color: transparent;
+  color: white;
+  border-color: aliceblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0px;
+  margin-top: 150px;
+  margin-left: 15%;
+}
+.content button:hover {
+  transition: 1s;
+  background-color: orange;
+}
+/*about me page*/
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.About {
+  height: 100vh;
+  width: 100%;
+  background-color: #188f89;
+}
+.About h1 {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.About p {
+  padding-left: 15%;
+  font-size: 20px;
+  padding-top: 10px;
+  line-height: 40px;
+  color: aliceblue;
+}
+.About h2 {
+  text-align: center;
+  padding-left: 15%;
+  text-decoration: none;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.skills h2 {
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+  padding-left: 0%;
+  margin-top: -10px;
+}
+.skills p {
+  color: white;
+  padding-left: 30%;
+}
+.About img {
+  margin-left: 200px;
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+}
+.About img:hover {
+  transform: scale(1.2);
+}
+
+/*beginning of education page*/
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.Education {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(204, 189, 218);
+}
+.Education h1 {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 80px;
+}
+.Education p {
+  font-size: 20px;
+  padding-top: 20px;
+  margin-left: 40px;
+  color: black;
+  text-align: center;
+}
+.Education .dip {
+  height: 300px;
+  width: 25%;
+  background-color: rgb(235, 118, 118);
+  margin-left: 100px;
+  margin-top: 140px;
+  border-radius: 15px;
+}
+.Education .dip h1 {
+  color: aliceblue;
+  padding-top: 10px;
+  text-decoration: underline;
+  font-size: 22px;
+}
+.Education .dip h2 {
+  color: aliceblue;
+  padding-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.Education .dip p {
+  color: aliceblue;
+  padding-top: 40px;
+  margin-left: 5px;
+  line-height: 40px;
+  font-size: 18px;
+}
+.Education .sec {
+  height: 300px;
+  width: 25%;
+  background-color: rgb(236, 115, 115);
+  margin-left: 38%;
+  margin-top: -300px;
+  border-radius: 15px;
+}
+.Education .sec h1 {
+  color: aliceblue;
+  padding-top: 10px;
+  font-size: 22px;
+  text-decoration: underline;
+}
+.Education .sec h2 {
+  color: aliceblue;
+  padding-top: 20px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.Education .sec p {
+  color: aliceblue;
+  padding-top: 40px;
+  line-height: 30px;
+  margin-left: 5px;
+  font-size: 18px;
+}
+.Education .pri {
+  height: 300px;
+  width: 25%;
+  background-color: rgb(236, 115, 115);
+  margin-left: 68%;
+  margin-top: -300px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+.Education .pri h1 {
+  color: aliceblue;
+  padding-top: 4px;
+  font-size: 22px;
+  text-decoration: underline;
+}
+.Education .sec h1 {
+  color: aliceblue;
+  padding-top: 10px;
+  font-size: 22px;
+  text-decoration: underline;
+}
+.Education .pri p {
+  color: aliceblue;
+  padding-top: 40px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  font-size: 18px;
+  margin-left: 5px;
+}
+/* contacts page begins here */
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.Contacts {
+  height: 60vh;
+  width: 100%;
+  background-color: #188f89;
+}
+.Contacts h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.Contacts a img {
+  display: flex;
+  flex-direction: column;
+  height: 35px;
+  width: 35px;
+  margin-top: 40px;
+  margin-left: 15%;
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+.norno p {
+  font-size: 20px;
+  color: white;
+  margin-left: 50%;
+  margin-top: -230px;
+}
+.calll p {
+  margin-left: 50%;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: aliceblue;
+}
+@media screen and (max-width: 799px) {
+  .navlinks ul li {
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    margin-left: 5%;
+    text-overflow: clip;
+  }
+  .content h1 {
+    color: white;
+    float: left;
+    font-size: 22px;
+    line-height: 20px;
+    margin-top: 9px;
+    margin-left: -50px;
+    /* text-align: center; */
+  }
+  .nav {
+    height: 200px;
+  }
+  .navlinks ul li a:hover {
+    background-color: orange;
+  }
+  .content img {
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-left: 7%;
+    margin-top: 50px;
+  }
+  .content p {
+    color: white;
+    padding-left: 2%;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 25px;
+    inline-size: 140px;
+  }
+  .content h2 {
+    color: white;
+    padding-left: -50px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .content button {
+    color: white;
+    border-color: aliceblue;
+    padding: 9px 17px;
+    text-align: center;
+    display: inline-block;
+    margin-left: -10px;
+    font-size: 11px;
+    border-radius: 0px;
+  }
+
+  .About h1 {
+    float: left;
+    font-size: 21px;
+    margin-left: 5%;
+  }
+  .About p {
+    padding-left: 4%;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 20px;
+    inline-size: 140px;
+  }
+  .skills h2 {
+    font-size: 22px;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 5%;
+    float: left;
+  }
+  .skills p {
+    color: white;
+    padding-left: 4%;
+    margin-top: 14px;
+  }
+  .About img {
+    display: inline-flex;
+    flex-direction: column;
+    float: left;
+    margin-left: 0%;
+    height: 60px;
+    width: 60px;
+  }
+  .About {
+    height: 150vh;
+    width: 100%;
+    background-color: #188f89;
+  }
+  .Education {
+    height: 120vh;
+    width: 130%;
+    background-color: rgb(204, 189, 218);
+  }
+  .Education h1 {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .Education p {
+    font-size: 16px;
+    margin-left: 0px;
+    color: black;
+    inline-size: 140px;
+    padding-top: 20px;
+  }
+  .Education .dip {
+    height: 160px;
+    width: 40%;
+    background-color: rgb(235, 118, 118);
+    float: left;
+    border-radius: 15px;
+    display: block;
+    margin-left: 3%;
+    margin-top: 0px;
+  }
+  .Education .dip h1 {
+    color: aliceblue;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .Education .dip h2 {
+    color: aliceblue;
+    padding-top: 5px;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+
+  .Education .dip p {
+    color: aliceblue;
+    padding-top: 2px;
+    margin-left: 5px;
+    line-height: 15px;
+    font-size: 11px;
+  }
+  .Education .pri {
+    height: 190px;
+    width: 40%;
+    background-color: rgb(236, 115, 115);
+    margin-left: 3%;
+    margin-top: 320px;
+  }
+  .Education .pri h1 {
+    color: aliceblue;
+    padding-top: 0px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .Education .pri h2 {
+    color: aliceblue;
+    padding-top: 2px;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .Education .pri p {
+    color: aliceblue;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-size: 11px;
+    margin-left: 5px;
+  }
+  .Education .sec {
+    height: 160px;
+    width: 40%;
+    background-color: rgb(236, 115, 115);
+    margin-left: 3%;
+    margin-top: 0px;
+    border-radius: 15px;
+  }
+  .Education .sec h1 {
+    color: aliceblue;
+    padding-top: 10px;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 10px;
+  }
+  .Education .sec h2 {
+    color: aliceblue;
+    padding-top: 10px;
+    font-size: 13px;
+  }
+  .Education .sec p {
+    color: aliceblue;
+    padding-top: 2px;
+    line-height: 15px;
+    margin-left: 5px;
+    font-size: 11px;
+  }
+}
